@@ -33,8 +33,6 @@ Simply add the following line anywhere in your markdown:
 
 and get a nice responsive sharing ribbon.
 
-{% include sharing.html %}
-
 Add this at the bottom, or the top, or between every other paragraph if you're desprate for social validation.
 
 Just remember to customize the buttons to fit your url in the `_includes/sharing.html` file. These buttons are made available and customizable by the good folks at kni-labs. See the documentation at [https://github.com/kni-labs/rrssb](https://github.com/kni-labs/rrssb) for more information.
@@ -64,6 +62,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 Thanks to [Shu Uesengi](https://github.com/chibicode) for inspiring and providing the base for this template with his excellent work, [solo](https://github.com/chibicode).
 
 <hr>
+{% include sharing.html %}
 
 ##### Footnotes:
 
