@@ -2,9 +2,7 @@
 layout: default
 ---
 
-## Backyard Weathermen
-
-### Flight through a Hurricane
+## Flight through a Hurricane
 
 The flight over, for the most part, had been smooth. Looking out the window, the clouds hung low. A crack of lightning flashed across the sky--but no thunder followed. Typically I get nervous flying through a storm but today I hadn’t. The pilot kept the airplane relatively smooth and calm, considering the impending Hurricane.
 
@@ -15,6 +13,8 @@ Flying from Boston, MA on I was concerned that they wouldn’t let us leave for 
 My dad picked me up in the 2014 Honda Civic, a small car, and we drove into the storm. Rain pelted the car at the same rate that we saw on the plane. On the ground, however, the water was much scarier. Why Dad didn’t bring the truck, I’ll never know. Lighting flashed, thunder cracked, rain poured. Dad drove us slowly through, trying to be careful of the rising water. There were times that I thought we would be the idiots stuck on the highway on the news. We made it home safely, thank goodness. I went to sleep fully expecting to leave in the morning for college.
 
 > You see, this wasn’t my first hurricane.
+
+[![IMAGE ALT TEXT HERE](http://img.youtube.com/vi/sEUkP2Z39hE/0.jpg)](http://www.youtube.com/watch?v=sEUkP2Z39hE)
 
 ### With footnotes too!
 
