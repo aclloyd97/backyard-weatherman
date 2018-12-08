@@ -1,6 +1,13 @@
 ---
 layout: default
 ---
+<style type="text/css">
+  #map {
+    width:400px;
+    height:550px;
+    background-color: red;
+  }
+</style>
 
 ### Flight through a Hurricane
 
@@ -24,16 +31,9 @@ The trick about hurricanes, however, is there are a number of factors. Hurricane
 
 I woke up and looked out my window and my street was flooded, my yard was flooded. Harvey was flooding Houston. There was no way to leave as I had originally anticipated. The first night, Harvey dumped from [range or average] on Houston. Across the city, rain was covering everything from front lawns like mine to entire cities.
 
-[![Car Ride Home](https://raw.githubusercontent.com/aclloyd97/LeafletHeatMap/master/images/IMG-20170827-WA0028.jpg)](https://youtu.be/i_ZaAlJTPFg) 
+[![Car Ride Home](https://raw.githubusercontent.com/aclloyd97/LeafletHeatMap/master/images/IMG-20170827-WA0028.jpg)](https://youtu.be/i_ZaAlJTPFg)
 
 ### Add social sharing buttons
-
-Simply add the following line anywhere in your markdown:
-
-<pre><code>{% raw  %}
-{% include sharing.html %}
-{% endraw %}
-</code></pre>
 
 and get a nice responsive sharing ribbon.
 
