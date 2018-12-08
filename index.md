@@ -2,7 +2,7 @@
 layout: default
 ---
 
-## Flight through a Hurricane
+### Flight through a Hurricane
 
 The flight over, for the most part, had been smooth. Looking out the window, the clouds hung low. A crack of lightning flashed across the sky--but no thunder followed. Typically I get nervous flying through a storm but today I hadn’t. The pilot kept the airplane relatively smooth and calm, considering the impending Hurricane.
 
@@ -14,13 +14,17 @@ My dad picked me up in the 2014 Honda Civic, a small car, and we drove into the 
 
 > You see, this wasn’t my first hurricane.
 
-[![Car Ride Home](https://img.youtube.com/vi/sEUkP2Z39hE/0.jpg)](https://www.youtube.com/watch?v=sEUkP2Z39hE) _Youtube Video Appears Here: Car Ride_
+[![Car Ride Home](https://img.youtube.com/vi/sEUkP2Z39hE/0.jpg)](https://www.youtube.com/watch?v=sEUkP2Z39hE)
 
-### With footnotes too!
+### Hurricanes
 
-Back up your stuff with solid, clean citations. Footnotes can be written in markdown and appear like this.[^1] Use as many as you like.[^2]
+The trick about hurricanes, however, is there are a number of factors. Hurricanes are violent storms, particularly in the Caribbean, with a wind force that exceeds 74 mph; tropical storms, in comparison, is 34 mph. These storms are defined by their wind speed using the Saffir-Simpson Hurricane Wind Scale. This scale has its problems, as it does not account for other dangerous factors such as the physical size of the storm and the amount of precipitation. Hurricane Ike, for example, had the wind speed of a typical Hurricane Category 2, but the storm surge comparable to a Category 5. Hurricane Harvey was a category 4 hurricane, with a wind speed of 130 mph.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.3/leaflet.css">
+
+I woke up and looked out my window and my street was flooded, my yard was flooded. Harvey was flooding Houston. There was no way to leave as I had originally anticipated. The first night, Harvey dumped from [range or average] on Houston. Across the city, rain was covering everything from front lawns like mine to entire cities.
+
+[![Car Ride Home](https://raw.githubusercontent.com/aclloyd97/LeafletHeatMap/master/images/IMG-20170827-WA0028.jpg)](https://youtu.be/i_ZaAlJTPFg) 
 
 ### Add social sharing buttons
 
