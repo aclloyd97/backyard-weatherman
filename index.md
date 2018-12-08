@@ -8,13 +8,13 @@ The flight over, for the most part, had been smooth. Looking out the window, the
 
 Flying from Boston, MA on I was concerned that they wouldn’t let us leave for Houston, TX.[^1] The Hurricane began formation in the Gulf of Mexico a few days prior, and as it loomed closer it became projected for Houston. My flight was one of the last to land in Houston. Wanting to evacuate the personnel as soon as possible, the airport didn’t allow luggage off of the plane. As I walked through the airport, I decided that Sunday morning, maybe Sunday afternoon, I would leave to return to College Station to be there for the first day of university classes.  
 
-[Insert Video: https://youtu.be/sEUkP2Z39hE]
+[![Flight Home](http://img.youtube.com/vi/XcU3w8aY-xk/0.jpg)](https://youtu.be/XcU3w8aY-xk)
 
 My dad picked me up in the 2014 Honda Civic, a small car, and we drove into the storm. Rain pelted the car at the same rate that we saw on the plane. On the ground, however, the water was much scarier. Why Dad didn’t bring the truck, I’ll never know. Lighting flashed, thunder cracked, rain poured. Dad drove us slowly through, trying to be careful of the rising water. There were times that I thought we would be the idiots stuck on the highway on the news. We made it home safely, thank goodness. I went to sleep fully expecting to leave in the morning for college.
 
 > You see, this wasn’t my first hurricane.
 
-[![IMAGE ALT TEXT HERE](http://img.youtube.com/vi/sEUkP2Z39hE/0.jpg)](http://www.youtube.com/watch?v=sEUkP2Z39hE)
+[![Car Ride Home](https://img.youtube.com/vi/sEUkP2Z39hE/0.jpg)](https://www.youtube.com/watch?v=sEUkP2Z39hE) _Youtube Video Appears Here: Car Ride_
 
 ### With footnotes too!
 
@@ -33,7 +33,7 @@ Simply add the following line anywhere in your markdown:
 
 and get a nice responsive sharing ribbon.
 
-Add this at the bottom, or the top, or between every other paragraph if you're desprate for social validation.
+Add this at the bottom, or the top, or between every other paragraph if you're deseprate for social validation.
 
 Just remember to customize the buttons to fit your url in the `_includes/sharing.html` file. These buttons are made available and customizable by the good folks at kni-labs. See the documentation at [https://github.com/kni-labs/rrssb](https://github.com/kni-labs/rrssb) for more information.
 
