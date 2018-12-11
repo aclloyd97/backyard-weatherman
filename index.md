@@ -3,6 +3,26 @@ layout: default
 custom_css: leaflet
 custom_js: leaflet
 ---
+<style type="text/css">
+  #map {
+    width:400px;
+    height:550px;
+    background-color: red;
+  }
+</style>
+
+{% if page.custom_js %}
+     {% for js_file in page.custom_js %}
+     <script src='/javascript/{{ js_file }}.js' type="text/javascript"></script>
+     {% endfor %}
+   {% endif %}
+
+{% if page.custom_css %}
+       {% for stylesheet in page.custom_css %}
+       <link rel="stylesheet" href="/css/{{ stylesheet }}.css" media="screen" type="text/css">
+       {% endfor %}
+   {% endif %}
+
 ### Flight through a Hurricane
 
 The flight over, for the most part, had been smooth. Looking out the window, the clouds hung low. A crack of lightning flashed across the sky--but no thunder followed. Typically I get nervous flying through a storm but today I hadn’t. The pilot kept the airplane relatively smooth and calm, considering the impending Hurricane.
