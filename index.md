@@ -3,20 +3,6 @@ layout: default
 custom_css: leaflet
 custom_js: leaflet
 ---
-
-{% if page.custom_js %}
-     {% for js_file in page.custom_js %}
-     <script src='/javascript/{{ js_file }}.js' type="text/javascript"></script>
-     {% endfor %}
-   {% endif %}
-
-{% if page.custom_css %}
-       {% for stylesheet in page.custom_css %}
-       <link rel="stylesheet" href="/css/{{ stylesheet }}.css" media="screen" type="text/css">
-       {% endfor %}
-   {% endif %}
-
-
 ### Flight through a Hurricane
 
 The flight over, for the most part, had been smooth. Looking out the window, the clouds hung low. A crack of lightning flashed across the sky--but no thunder followed. Typically I get nervous flying through a storm but today I hadn’t. The pilot kept the airplane relatively smooth and calm, considering the impending Hurricane.
@@ -53,6 +39,7 @@ But that seemed to be all you could do during this natural disaster, watch your 
 When presented with a data-based project for English, my thoughts then turned back to the rain, the sheer amount of it. After some searching, I found a comprehensive list of the entire rainfall for the weather event, from formation to dissipation. The data listed over 6900 sources, a different location across the nation that recorded rainfall data. Some sources, such as a local Dallas network of airports, made sense. But one data source, CoCoRaHs, contributed 6750 sets of data for the hurricane. Expansive, the data ranged from Texas to Maine. Who was this?
 
 *Map #2*
+<div id="map1" class="map leaflet-container" style="height: 500px; position:relative;"></div>
 
 ###CoCoRaHS: Citizen Meteorology Project
 CoCoRaHS (pronounced ko-ko-rozz), stands for “Community Collaborative Rain, Hail, and Snow Network.” This non-profit network of volunteers across all fifty states place a rain gauge in their backyard, observe the collected rain data every day, and record the data in an online portal. Originating in Colorado after a deadly flood, CoCoRaHS encourages entire communities to record weather observations. The data the network supplies empower everyone from local weathermen and city utilities to large organizations like the National Weather Service and the USDA for a variety of research and informational uses.
