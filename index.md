@@ -22,7 +22,7 @@ My dad picked me up in the 2014 Honda Civic, a small car, and we drove into the 
 The trick about hurricanes, however, is there are a number of factors. Hurricanes are violent storms, particularly in the Caribbean, with a wind force that exceeds 74 mph; tropical storms, in comparison, is 34 mph. These storms are defined by their wind speed using the Saffir-Simpson Hurricane Wind Scale. This scale has its problems, as it does not account for other dangerous factors such as the physical size of the storm and the amount of precipitation. Hurricane Ike, for example, had the wind speed of a typical Hurricane Category 2, but the storm surge comparable to a Category 5. Hurricane Harvey was a Category 4 hurricane, with a wind speed of 130 mph.
 
 *Map #1*
-<div id="map1" class="map leaflet-container" style="height: 500px; position:relative;"></div>
+<div id="map" class="map leaflet-container" style="height: 500px; position:relative;"></div>
 
 I woke up and looked out my window and my street was flooded, my yard was flooded. Harvey was flooding Houston. There was no way to leave as I had originally anticipated. The first night, Harvey dumped from [range or average] on Houston. Across the city, rain was covering everything from front lawns like mine to entire cities.
 
@@ -41,7 +41,6 @@ When presented with a data-based project for English, my thoughts then turned ba
 *Map #2*
 <div id="map1" class="map leaflet-container" style="height: 500px; position:relative;"></div>
 
-###CoCoRaHS: Citizen Meteorology Project
 CoCoRaHS (pronounced ko-ko-rozz), stands for “Community Collaborative Rain, Hail, and Snow Network.” This non-profit network of volunteers across all fifty states place a rain gauge in their backyard, observe the collected rain data every day, and record the data in an online portal. Originating in Colorado after a deadly flood, CoCoRaHS encourages entire communities to record weather observations. The data the network supplies empower everyone from local weathermen and city utilities to large organizations like the National Weather Service and the USDA for a variety of research and informational uses.
 
 The data recorded by backyard weathermen for this citizen science project has a huge impact. Everyone is encouraged to participate--families, schools, scientists.[^2] The data collected by individuals across the nation go into individual, daily precipitation report. From there, the organization compiles them into a Public Information Statement that can be used by the public and media. This data helps everyone from hydrologists to forecaster.
@@ -52,6 +51,7 @@ If you're interested in learning more about citizen weather science, visit your 
   * Jet Stream, an online introductory textbook to meteorology
   * SKYWARN, training to become a storm spotter for severe weathermen
   * Emergency Preparedness Seminars, to become informed about local emergency preparedness situations
+
 
 
 
