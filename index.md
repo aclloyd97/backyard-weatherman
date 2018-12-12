@@ -98,15 +98,15 @@ If you're interested in learning more about citizen weather science, visit your 
 
     <!--DATASETS-->
         <!--August 26-->
-            <script src="data/usa/du_0826.js"></script>         <!--var usaPoints_0826-->
-            <script src="data/texas/dt_0826.js"></script>       <!--var texasPoints_0826-->
-            <script src="data/landfall/dl_0826.js"></script>    <!--var landfallPoints_0826-->
+            <script src="LeafletHeatMap/data/usa/du_0826.js"></script>         <!--var usaPoints_0826-->
+            <script src="LeafletHeatMap/data/texas/dt_0826.js"></script>       <!--var texasPoints_0826-->
+            <script src="LeafletHeatMap/data/landfall/dl_0826.js"></script>    <!--var landfallPoints_0826-->
         <!--Total Rainfall-->
-            <script src="data/usa/du_total.js"></script>        <!--var usaPoints_total-->
-            <script src="data/texas/dt_total.js"></script>      <!--var texasPoints_total-->
-            <script src="data/landfall/dl_total.js"></script>   <!--var landfallPoints_total-->
+            <script src="LeafletHeatMap/data/usa/du_total.js"></script>        <!--var usaPoints_total-->
+            <script src="LeafletHeatMap/data/texas/dt_total.js"></script>      <!--var texasPoints_total-->
+            <script src="LeafletHeatMap/data/landfall/dl_total.js"></script>   <!--var landfallPoints_total-->
         <!--Other-->
-            <script src="data/flight_path.js"></script>         <!--var flight_boston-->
+            <script src="LeafletHeatMap/data/flight_path.js"></script>         <!--var flight_boston-->
 
 <!--MAPS-->
 <script> //Map 1 = August 26 and Flight
