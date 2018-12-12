@@ -15,10 +15,11 @@ custom_js: leaflet
        {% endfor %}
    {% endif %}
 ---
+What the hell will this paper be about.
 
 ### Flight through a Hurricane
 
-The flight over, for the most part, had been smooth. Looking out the window, the clouds hung low. A crack of lightning flashed across the sky--but no thunder followed. Typically I get nervous flying through a storm but today I hadn’t. The pilot kept the airplane relatively smooth and calm, considering the impending Hurricane.
+My flight, for the most part, had been smooth. Looking out the window, the clouds hung low. A crack of lightning flashed across the sky--but no thunder followed. Typically I get nervous flying through a storm but today I hadn’t. The pilot kept the airplane relatively smooth and calm, considering the impending Hurricane.
 
 Flying from Boston, MA on I was concerned that they wouldn’t let us leave for Houston, TX.[^1] The Hurricane began formation in the Gulf of Mexico a few days prior, and as it loomed closer it became projected for Houston. My flight was one of the last to land in Houston. Wanting to evacuate the personnel as soon as possible, the airport didn’t allow luggage off of the plane. As I walked through the airport, I decided that Sunday morning, maybe Sunday afternoon, I would leave to return to College Station to be there for the first day of university classes.  
 
