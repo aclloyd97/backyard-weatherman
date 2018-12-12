@@ -38,12 +38,19 @@ Despite my worries, we made it home safely. Once inside, I decided to stick to m
 [![Car Ride Home](https://img.youtube.com/vi/sEUkP2Z39hE/0.jpg)](https://www.youtube.com/watch?v=sEUkP2Z39hE)
 
 ### Hurricanes
+In the Caribbean, tropical storms category begin at 34 mph, while hurricane categories exceeds 74 mph. These classifications come from the *Saffir-Simpson Hurricane Wind Scale*, which depends on wind speeds alone to slot storms into different categories. There's a trick to hurricanes, however. A number of factors affect these violent storms creating dangerous situations, not just wind speed.
 
-The trick about hurricanes, however, is there are a number of factors. Hurricanes are violent storms, particularly in the Caribbean, with a wind force that exceeds 74 mph; tropical storms, in comparison, is 34 mph. These storms are defined by their wind speed using the Saffir-Simpson Hurricane Wind Scale. This scale has its problems, as it does not account for other dangerous factors such as the physical size of the storm and the amount of precipitation. Hurricane Ike, for example, had the wind speed of a typical Hurricane Category 2, but the storm surge comparable to a Category 5. Hurricane Harvey was a Category 4 hurricane, with a wind speed of 130 mph.
+Factors include the physical size of the storm and the amount of precipitation during the meteorological event. Hurricane Ike, for example, had the wind speed of a typical Hurricane _Category 2_, but the storm surge comparable to a typical _Category 5_. Hurricane Harvey was a _Category 4_ hurricane, with a wind speed of 130 mph. As a result, I knew the categorization system was flawed and thought
+
+> Oh, because of my experiences with a hurricane that behaved like a Category 5, I know how to handle all hurricanes smaller than a Category 5.
+
+My experiences with Ike, however, would not compare to Harvey in the slightest.
 
 *Map #1*
 <div id="map1" class="map leaflet-container" style="width: 700px; height: 400px; position: relative;"></div>
 <script src="https://cdn.jsdelivr.net/gh/aclloyd97/LeafletHeatMap/index.html"></script>
+
+The precipitation for Harvey was unlike any other hurricane, dropping 27 trillion gallons over the first 6 days.[^1] Hurricane Katrina, by comparison, only dropped 6 trillion gallons of water. 
 
 I woke up and looked out my window and my street was flooded, my yard was flooded. Harvey was flooding Houston. There was no way to leave as I had originally anticipated. The first night, Harvey dumped from [range or average] on Houston. Across the city, rain was covering everything from front lawns like mine to entire cities.
 
@@ -82,7 +89,7 @@ If you're interested in learning more about citizen weather science, visit your 
 
 ##### Footnotes:
 
-[^1]: 2728 Dep BOS at 05:10 PM. Arrived in Houston from Boston at 08:25 PM. Travel time was 4 hrs 15 mins.
+[^1]: https://www.cnn.com/2017/08/27/us/harvey-impact-by-the-numbers-trnd/index.html
 
 [^2]: http://www.upr.org/post/shower-national-weather-service-data-being-backyard-weather-observer.
 
