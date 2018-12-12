@@ -1,19 +1,5 @@
 ---
 layout: default
-custom_css: leaflet
-custom_js: leaflet
-
-     {% if page.custom_js %}
-       {% for js_file in page.custom_js %}
-       <script src='/javascript/{{ js_file }}.js' type="text/javascript"></script>
-       {% endfor %}
-   {% endif %}
-
-   {% if page.custom_css %}
-       {% for stylesheet in page.custom_css %}
-       <link rel="stylesheet" href="/css/{{ stylesheet }}.css" media="screen" type="text/css">
-       {% endfor %}
-   {% endif %}
 ---
 
 ## What can average people do to help meteorologists?
@@ -40,7 +26,6 @@ Despite my worries, we made it home safely. Once inside, I decided to stick to m
 
 *Map #1*
 <div id="map1" class="map leaflet-container" style="width: 700px; height: 400px; position: relative;"></div>
-<script src="https://cdn.jsdelivr.net/gh/aclloyd97/LeafletHeatMap/index.html"></script>
 
 ### Hurricanes
 
@@ -56,7 +41,7 @@ My experiences with Ike, however, would not compare to Harvey in the slightest.
 
 The precipitation for Harvey was unlike any other hurricane, dropping 27 trillion gallons over the first 6 days. Hurricane Katrina, by comparison, only dropped 6 trillion gallons of water.[^1] When I woke up the next morning, my street, which rarely floods, was filled over the brim. In fact, it was creeping into my lawn. The best I could do was take pictures from nearly the same spot to demonstrate how high the water was.
 
-[![Water Rising in the Street](https://raw.githubusercontent.com/aclloyd97/LeafletHeatMap/master/images/IMG_20170829_083538.jpg)]
+[![Water Rising in the Street](images/IMG_20170829_083538.jpg)](images/IMG_20170829_083538.jpg)
 
 Scrolling through social media feeds, I saw my friends and family sharing similar photos of their streets and lawns. At the time, that's the best we had to measure how much rain had fallen. Needless to say, I wasn't leaving for college with how much rainfall had occurred. There was too much flooding.
 
@@ -70,7 +55,6 @@ After some searching, I found a pretty comprehensive list of the entire rainfall
 
 *Map #2*
 <div id="map2" class="map leaflet-container" style="width: 700px; height: 400px; position: relative;"></div>
-<script src="https://cdn.jsdelivr.net/gh/aclloyd97/LeafletHeatMap/index.html"></script>
 
 With the help of the internet, I was able to dig up some information about CoCoRaHS. A private network of volunteers, CoCoRaHS (Community Collaboration Rain, Hail, and Snow Network) is a non-profit network of volunteers across all fifty states working towards recording accurate rain data. Volunteers typically place a rain gauge in their backyard, observe the collected rain, and document the data in an online portal.
 
@@ -105,35 +89,10 @@ If you're interested in learning more about citizen weather science, visit your 
 [^4]: https://www.forbes.com/sites/dennismersereau/2018/07/31/8-fantastic-resources-to-learn-more-about-the-weather/#7f7c40f07dfa
 
 ---
-<body>
-
-<div id="map1" class="map"></div>
-
-<br>
-
-<div id="map2" class="map"></div> <!--map 2 locations-->
-
-<br>
-
-<!---SCRIPTS-->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.3.4/leaflet.js"></script>
-<script src="https://cdn.jsdelivr.net/gh/mourner/simpleheat/simpleheat.min.js"></script>
-<script src="https://cdn.jsdelivr.net/gh/Harvinator/Leaflet.heat@patch-1/src/HeatLayer.min.js"></script>
-
-    <!--DATASETS-->
-        <!--August 26-->
-            <script src="LeafletHeatMap/data/usa/du_0826.js"></script>         <!--var usaPoints_0826-->
-            <script src="LeafletHeatMap/data/texas/dt_0826.js"></script>       <!--var texasPoints_0826-->
-            <script src="LeafletHeatMap/data/landfall/dl_0826.js"></script>    <!--var landfallPoints_0826-->
-        <!--Total Rainfall-->
-            <script src="LeafletHeatMap/data/usa/du_total.js"></script>        <!--var usaPoints_total-->
-            <script src="LeafletHeatMap/data/texas/dt_total.js"></script>      <!--var texasPoints_total-->
-            <script src="LeafletHeatMap/data/landfall/dl_total.js"></script>   <!--var landfallPoints_total-->
-        <!--Other-->
-            <script src="LeafletHeatMap/data/flight_path.js"></script>         <!--var flight_boston-->
 
 <!--MAPS-->
 <script> //Map 1 = August 26 and Flight
+	document.addEventListener("DOMContentLoaded", function() {
     var map1 = L.map('map1', {center: [37, -97], zoom: 4}); // [Lat, Lng], Magn
         // Texas Center: [31.5, -100], 6
         // USA   Center: [37, -97], 4
@@ -198,8 +157,7 @@ If you're interested in learning more about citizen weather science, visit your 
     controls.addOverlay(landfall, "Hurricane Harvey path");
     controls.addOverlay(flight_boston, "Fligt 2728");
 
-</script>
-<script> //Map 2 = Hurricane Totals and Sources as a Layer
+	//Map 2 = Hurricane Totals and Sources as a Layer
   var map2 = L.map('map2', { center: [31.5, -100], zoom: 6}); // [Lat, Lng], Magn
       // Texas Center: [31.5, -100], 6
       // USA   Center: [37, -97], 4
@@ -249,27 +207,11 @@ If you're interested in learning more about citizen weather science, visit your 
 
   var landfall = L.polyline(landfallPoints_total, {color: "red"}).bindTooltip("Hurricane Harvey's<br>storm path</br>").addTo(map2); //Tool Tip
 
-  controls.addOverlay(heat,"Heat Layer");
+  controls.addOverlay(texasHeat,"Heat Layer");
   controls.addOverlay(landfall, "Hurricane Harvey path");
 
   //addressPoints2.forEach(function(point){
             //new L.marker([point[0],point[1]]).bindPopup(point[0]+", "+point[1]).addTo(map1);
           //})
+});
 </script>
-<!--<script> //Play my Video
-var ppbutton = document.getElementById("vidbutton");
-ppbutton.addEventListener("click", playPause);
-
-myVideo = document.getElementById("flight_vid");
-function playPause() {
-    if (myVideo.paused) {
-        myVideo.play();
-        ppbutton.innerHTML = "Pause";
-        }
-    else  {
-        myVideo.pause();
-        ppbutton.innerHTML = "Play";
-
-</script>-->
-</body>
----
