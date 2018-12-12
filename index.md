@@ -36,7 +36,7 @@ The trick about hurricanes, however, is there are a number of factors. Hurricane
 
 *Map #1*
 <div id="map1" class="map leaflet-container" style="width: 700px; height: 400px; position: relative;"></div>
-<script src="https://cdn.jsdelivr.net/gh/aclloyd97/LeafletHeatMap/blob/master/index.html"></script>
+<script src="https://cdn.jsdelivr.net/gh/aclloyd97/LeafletHeatMap/index.html"></script>
 
 I woke up and looked out my window and my street was flooded, my yard was flooded. Harvey was flooding Houston. There was no way to leave as I had originally anticipated. The first night, Harvey dumped from [range or average] on Houston. Across the city, rain was covering everything from front lawns like mine to entire cities.
 
@@ -54,7 +54,7 @@ When presented with a data-based project for English, my thoughts then turned ba
 
 *Map #2*
 <div id="map2" class="map leaflet-container" style="width: 700px; height: 400px; position: relative;"></div>
-<script src="https://cdn.jsdelivr.net/gh/aclloyd97/LeafletHeatMap/blob/master/index.html"></script>
+<script src="https://cdn.jsdelivr.net/gh/aclloyd97/LeafletHeatMap/index.html"></script>
 
 CoCoRaHS (pronounced ko-ko-rozz), stands for “Community Collaborative Rain, Hail, and Snow Network.” This non-profit network of volunteers across all fifty states place a rain gauge in their backyard, observe the collected rain data every day, and record the data in an online portal. Originating in Colorado after a deadly flood, CoCoRaHS encourages entire communities to record weather observations. The data the network supplies empower everyone from local weathermen and city utilities to large organizations like the National Weather Service and the USDA for a variety of research and informational uses.
 
