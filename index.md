@@ -16,7 +16,7 @@ custom_js: leaflet
    {% endif %}
 ---
 
-# What can average people do to help meteorologists?
+## What can average people do to help meteorologists?
 
 ### Flight through a Hurricane
 
