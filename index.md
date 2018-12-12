@@ -50,7 +50,7 @@ My experiences with Ike, however, would not compare to Harvey in the slightest.
 <div id="map1" class="map leaflet-container" style="width: 700px; height: 400px; position: relative;"></div>
 <script src="https://cdn.jsdelivr.net/gh/aclloyd97/LeafletHeatMap/index.html"></script>
 
-The precipitation for Harvey was unlike any other hurricane, dropping 27 trillion gallons over the first 6 days.[^1] Hurricane Katrina, by comparison, only dropped 6 trillion gallons of water. 
+The precipitation for Harvey was unlike any other hurricane, dropping 27 trillion gallons over the first 6 days.[^1] Hurricane Katrina, by comparison, only dropped 6 trillion gallons of water.
 
 I woke up and looked out my window and my street was flooded, my yard was flooded. Harvey was flooding Houston. There was no way to leave as I had originally anticipated. The first night, Harvey dumped from [range or average] on Houston. Across the city, rain was covering everything from front lawns like mine to entire cities.
 
