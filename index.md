@@ -15,7 +15,8 @@ custom_js: leaflet
        {% endfor %}
    {% endif %}
 ---
-What the hell will this paper be about: a thesis.
+
+#What can average people do to help meteorologists?
 
 ### Flight through a Hurricane
 
