@@ -23,19 +23,23 @@ Flight 2720 is a straight shot to Houston, about four hours and fifteen minutes.
 
 With this flight, a crack of lightning flashed across the sky, but no thunder followed. My flight had been calm, up to this final push. On occasion, I get nervous flying through a storm, but today’s pilots kept the plane sailing smoothly through the sky despite the ruckus immediately around us. This ruckus was just beginning to hit Houston--Hurricane Harvey.
 
+[![Flight Home](http://img.youtube.com/vi/XcU3w8aY-xk/0.jpg)](https://youtu.be/XcU3w8aY-xk)
+
 Originally, I was slightly concerned about flying from Boston, Massachusetts, to Houston, Texas because of the impending weather. Harvey began formation in the Gulf of Mexico just a few days prior and loomed closer as it’s path shifted, now projecting onto Houston. Now, it was here.
 
 Anxious for the safety of the personnel and passengers, the airport sought to evacuate everyone as quickly as possible, not even taking my luggage off of the plane. As I walked through the airport, I decided that Sunday morning, maybe Sunday afternoon, I would leave to return to College Station to be there for the first day of university classes.
 
-[![Flight Home](http://img.youtube.com/vi/XcU3w8aY-xk/0.jpg)](https://youtu.be/XcU3w8aY-xk)
-
 Exiting the building, my dad brought the small Honda Civic instead of the tall Ford “Built Tough” Truck. Rain pelted the car as we drove off into the storm. We only technically live thirty minutes from the airport, but we had to drive very carefully with the rising waters.
+
+[![Car Ride Home](https://img.youtube.com/vi/sEUkP2Z39hE/0.jpg)](https://www.youtube.com/watch?v=sEUkP2Z39hE)
 
 Lighting flashed, thunder cracked, rain poured. Why Dad didn’t bring the truck, I’ll never know. We were the only ones on the road. I could almost imagine the car stuck at the top of Beltway 8,  water encircling us, with the news helicopter flying above us, pointing their spotlight, broadcasting that there were another set of idiots trying to drive around town during a hurricane.
 
 Despite my worries, we made it home safely. Once inside, I decided to stick to my original plan to head to College Station, unless something drastic changed. I had experienced hurricanes and flooding before. In my neighborhood, we were built with good drainage systems and retention ponds. I felt confident I could wake up in the morning and the roads clear to drive, as I had experienced with previous severe weather.
 
-[![Car Ride Home](https://img.youtube.com/vi/sEUkP2Z39hE/0.jpg)](https://www.youtube.com/watch?v=sEUkP2Z39hE)
+*Map #1*
+<div id="map1" class="map leaflet-container" style="width: 700px; height: 400px; position: relative;"></div>
+<script src="https://cdn.jsdelivr.net/gh/aclloyd97/LeafletHeatMap/index.html"></script>
 
 ### Hurricanes
 In the Caribbean, tropical storms category begin at 34 mph, while hurricane categories exceeds 74 mph. These classifications come from the *Saffir-Simpson Hurricane Wind Scale*, which depends on wind speeds alone to slot storms into different categories. There's a trick to hurricanes, however. A number of factors affect these violent storms creating dangerous situations, not just wind speed.
@@ -46,11 +50,9 @@ Factors include the physical size of the storm and the amount of precipitation d
 
 My experiences with Ike, however, would not compare to Harvey in the slightest.
 
-*Map #1*
-<div id="map1" class="map leaflet-container" style="width: 700px; height: 400px; position: relative;"></div>
-<script src="https://cdn.jsdelivr.net/gh/aclloyd97/LeafletHeatMap/index.html"></script>
+_photos of my street_
 
-The precipitation for Harvey was unlike any other hurricane, dropping 27 trillion gallons over the first 6 days.[^1] Hurricane Katrina, by comparison, only dropped 6 trillion gallons of water.
+The precipitation for Harvey was unlike any other hurricane, dropping 27 trillion gallons over the first 6 days.[^1] Hurricane Katrina, by comparison, only dropped 6 trillion gallons of water. My street, which rarely
 
 I woke up and looked out my window and my street was flooded, my yard was flooded. Harvey was flooding Houston. There was no way to leave as I had originally anticipated. The first night, Harvey dumped from [range or average] on Houston. Across the city, rain was covering everything from front lawns like mine to entire cities.
 
