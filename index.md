@@ -19,13 +19,13 @@ What the hell will this paper be about: a thesis.
 
 ### Flight through a Hurricane
 
-Flight 2720 is a straight shot to Houston, about four hours and fifteen minutes. On a normal summer evening, the clouds would hang low and the sunset would beam colorful rays through the window as you landed quietly at Hobby International Airport.
+Flight 2720 is a straight shot to Houston, about four hours and fifteen minutes. On a normal summer evening, *FIXME* the clouds would hang low and the sunset beamed colorful rays through the window as the airplane landed quietly at Hobby International Airport.
 
 With this flight, a crack of lightning flashed across the sky, but no thunder followed. My flight had been calm, up to this final push. On occasion, I get nervous flying through a storm, but today’s pilots kept the plane sailing smoothly through the sky despite the ruckus immediately around us. This ruckus was just beginning to hit Houston--Hurricane Harvey.
 
 [![Flight Home](http://img.youtube.com/vi/XcU3w8aY-xk/0.jpg)](https://youtu.be/XcU3w8aY-xk)
 
-Originally, I was slightly concerned about flying from Boston, Massachusetts, to Houston, Texas because of the impending weather. Harvey began formation in the Gulf of Mexico just a few days prior and loomed closer as it’s path shifted, now projecting onto Houston. Now, it was here.
+Originally, I was slightly concerned about flying from Boston, Massachusetts, to Houston, Texas because of the impending weather. Harvey began formation in the Gulf of Mexico just a few days prior and loomed closer as its path shifted, projecting onto Houston. Now, it was here.
 
 Anxious for the safety of the personnel and passengers, the airport sought to evacuate everyone as quickly as possible, not even taking my luggage off of the plane. As I walked through the airport, I decided that Sunday morning, maybe Sunday afternoon, I would leave to return to College Station to be there for the first day of university classes.
 
@@ -53,7 +53,7 @@ My experiences with Ike, however, would not compare to Harvey in the slightest.
 
 ###Raining Continues
 
-The precipitation for Harvey was unlike any other hurricane, dropping 27 trillion gallons over the first 6 days.[^1] Hurricane Katrina, by comparison, only dropped 6 trillion gallons of water. When I woke up the next morning, my street, which rarely floods, was filled over the brim. In fact, it was creeping into my lawn. The best I could do was take pictures from nearly the same spot to demonstrate how high the water was.
+The precipitation for Harvey was unlike any other hurricane, dropping 27 trillion gallons over the first 6 days. Hurricane Katrina, by comparison, only dropped 6 trillion gallons of water.[^1] When I woke up the next morning, my street, which rarely floods, was filled over the brim. In fact, it was creeping into my lawn. The best I could do was take pictures from nearly the same spot to demonstrate how high the water was.
 
 [![Water Rising in the Street](https://raw.githubusercontent.com/aclloyd97/LeafletHeatMap/master/images/IMG_20170829_083538.jpg)
 
@@ -63,7 +63,7 @@ My family and I just watched the social media feeds of other people's flood stor
 
 ### Looking at the Hurricane in Retrospect
 
-When presented with a data-based project for an English class, my thoughts then turned back to the rain that unusually rainfall from Harvey. Somewhere, someone had to have recorded the data.
+When presented with a data-based project for an English class, my thoughts then turned back to the unusual rainfall from Harvey. Somewhere, someone had to have recorded the data.
 
 After some searching, I found a pretty comprehensive list of the entire rainfall for the weather event, from formation to dissipation. The data listed over 6900 sources, a different location across the nation that recorded rainfall data. Some sources, such as a local Dallas network of airports, made sense. But one data source, CoCoRaHs, contributed 6750 sets of data for the hurricane. Expansive, the data ranged from Texas to Maine. Who was this source?
 
@@ -73,12 +73,13 @@ After some searching, I found a pretty comprehensive list of the entire rainfall
 
 With the help of the internet, I was able to dig up some information about CoCoRaHS. A private network of volunteers, CoCoRaHS (Community Collaboration Rain, Hail, and Snow Network) is a non-profit network of volunteers across all fifty states working towards recording accurate rain data. Volunteers typically place a rain gauge in their backyard, observe the collected rain, and document the data in an online portal.
 
-After a deadly flood in Colorado,[^2] CoCoRaHS was created to encourage communities to engage in citizen meteorological projects by recording weather observations. These citizen observations. This data the CoCoRaHS network supplies empower everyone from local weathermen and city utilities to large organizations like the National Weather Service and the USDA for a variety of research and informational uses.
+After a deadly flood in Colorado,[^2] CoCoRaHS was created to encourage communities to engage in citizen meteorological projects by recording weather observations. This data the CoCoRaHS network supplies empower everyone from local weathermen and city utilities to large organizations like the National Weather Service and the USDA for a variety of research and informational uses.
 
 Everyone is encouraged to participate in the program--families, schools, scientists.[^3] The data collected by individuals across the nation go into individual, daily precipitation report. From there, the organization compiles them into a Public Information Statement that can be used by the public and media where other organizations interested in the data can use it.
 
-In the map above, you can see that with all of the individual precipitation records together, we are able to create a full picture of how rainfall affects the community as a whole. [expand?]  [this is bad]
+The map above illustrates the rainfall data collected for the entire duration of Hurricane Harvey. If you zoomed in onto an individual point, it's not very interesting. You will just see a blue dot. However, when zooming out and seeing the network of data working together to create a comprehensive picture, you can see that with all of the individual precipitation records work together to communicate how rainfall affects the community as a whole. With an encompassing dataset, meteorologists and weathermen can more accurately provide weather information to prepare people for all kinds of weather.
 
+###Joining CoCoRaHS
 To join the organization, there are a few steps to be undertaken. After filling out a general form, purchasing a standard four inch rain gauge, and some training in how to read your new gauge, a person is able to help contribute rainfall information for their community. After learning how to measure precipitation accurately and consistently, the gauge and participant are ready to go. Measuring rainfall data helps support your local weather station with scientific data to make more accurate forecasts.
 
 If you're interested in learning more about citizen weather science, visit your local weather station for opportunities to learn more about meteorology such as:[^4]
