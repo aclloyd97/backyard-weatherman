@@ -42,6 +42,7 @@ Despite my worries, we made it home safely. Once inside, I decided to stick to m
 <script src="https://cdn.jsdelivr.net/gh/aclloyd97/LeafletHeatMap/index.html"></script>
 
 ### Hurricanes
+
 In the Caribbean, tropical storms category begin at 34 mph, while hurricane categories exceeds 74 mph. These classifications come from the *Saffir-Simpson Hurricane Wind Scale*, which depends on wind speeds alone to slot storms into different categories. There's a trick to hurricanes, however. A number of factors affect these violent storms creating dangerous situations, not just wind speed.
 
 Factors include the physical size of the storm and the amount of precipitation during the meteorological event. Hurricane Ike, for example, had the wind speed of a typical Hurricane _Category 2_, but the storm surge comparable to a typical _Category 5_. Hurricane Harvey was a _Category 4_ hurricane, with a wind speed of 130 mph. As a result, I knew the categorization system was flawed and thought
@@ -50,35 +51,37 @@ Factors include the physical size of the storm and the amount of precipitation d
 
 My experiences with Ike, however, would not compare to Harvey in the slightest.
 
-_photos of my street_
+###Raining Continues
 
-The precipitation for Harvey was unlike any other hurricane, dropping 27 trillion gallons over the first 6 days.[^1] Hurricane Katrina, by comparison, only dropped 6 trillion gallons of water. My street, which rarely
+The precipitation for Harvey was unlike any other hurricane, dropping 27 trillion gallons over the first 6 days.[^1] Hurricane Katrina, by comparison, only dropped 6 trillion gallons of water. When I woke up the next morning, my street, which rarely floods, was filled over the brim. In fact, it was creeping into my lawn. The best I could do was take pictures from nearly the same spot to demonstrate how high the water was.
 
-I woke up and looked out my window and my street was flooded, my yard was flooded. Harvey was flooding Houston. There was no way to leave as I had originally anticipated. The first night, Harvey dumped from [range or average] on Houston. Across the city, rain was covering everything from front lawns like mine to entire cities.
+[![Water Rising in the Street](https://raw.githubusercontent.com/aclloyd97/LeafletHeatMap/master/images/IMG_20170829_083538.jpg)
 
-[![Flooded Streets](https://raw.githubusercontent.com/aclloyd97/LeafletHeatMap/master/images/IMG-20170827-WA0028.jpg)](https://youtu.be/i_ZaAlJTPFg)
+Scrolling through social media feeds, I saw my friends and family sharing similar photos of their streets and lawns. At the time, that's the best we had to measure how much rain had fallen. Needless to say, I wasn't leaving for college with how much rainfall had occurred. There was too much flooding.
 
-There was really nothing to do over the next few days besides watch the rainfall and the water rise. My family began making plans about moving furniture onto bricks, moving books upstairs, preparing for worst case scenarios. We took photos of the encroaching stormwater to help track how much rain has passed, how much flooding was happening. After e-mailing my professors about how I was unable to leave my house except by kayak, I turned to social media like everyone else. I watched my Facebook feed, my Instagram feed, etc. Everyone I knew was sharing and posting about the storm, about the rain, about the rising water. Hurricane Harvey became the most mediated natural disaster in history.
-
-*maybe a gallery of images*
-
-But that seemed to be all you could do during this natural disaster, watch your front lawn, wait for the water to lower, pray /for the rain to stop, find stories of hope from a personal newsfeed. It was all anyone could talk about. The amount of rain that fell during the was monumental. After a few days, the storm left and the floodwaters drained. I drove off to College Station without another thought about the rain.
+My family and I just watched the social media feeds of other people's flood stories, and watched our lawn waiting for the rain to recede. After a few days, the storm left and the floodwaters drained. I drove off to College Station without another thought about the rain.
 
 ### Looking at the Hurricane in Retrospect
 
-When presented with a data-based project for English, my thoughts then turned back to the rain, the sheer amount of it. After some searching, I found a comprehensive list of the entire rainfall for the weather event, from formation to dissipation. The data listed over 6900 sources, a different location across the nation that recorded rainfall data. Some sources, such as a local Dallas network of airports, made sense. But one data source, CoCoRaHs, contributed 6750 sets of data for the hurricane. Expansive, the data ranged from Texas to Maine. Who was this?
+When presented with a data-based project for an English class, my thoughts then turned back to the rain that unusually rainfall from Harvey. Somewhere, someone had to have recorded the data.
+
+After some searching, I found a pretty comprehensive list of the entire rainfall for the weather event, from formation to dissipation. The data listed over 6900 sources, a different location across the nation that recorded rainfall data. Some sources, such as a local Dallas network of airports, made sense. But one data source, CoCoRaHs, contributed 6750 sets of data for the hurricane. Expansive, the data ranged from Texas to Maine. Who was this source?
 
 *Map #2*
 <div id="map2" class="map leaflet-container" style="width: 700px; height: 400px; position: relative;"></div>
 <script src="https://cdn.jsdelivr.net/gh/aclloyd97/LeafletHeatMap/index.html"></script>
 
-CoCoRaHS (pronounced ko-ko-rozz), stands for “Community Collaborative Rain, Hail, and Snow Network.” This non-profit network of volunteers across all fifty states place a rain gauge in their backyard, observe the collected rain data every day, and record the data in an online portal. Originating in Colorado after a deadly flood, CoCoRaHS encourages entire communities to record weather observations. The data the network supplies empower everyone from local weathermen and city utilities to large organizations like the National Weather Service and the USDA for a variety of research and informational uses.
+With the help of the internet, I was able to dig up some information about CoCoRaHS. A private network of volunteers, CoCoRaHS (Community Collaboration Rain, Hail, and Snow Network) is a non-profit network of volunteers across all fifty states working towards recording accurate rain data. Volunteers typically place a rain gauge in their backyard, observe the collected rain, and document the data in an online portal.
 
-The data recorded by backyard weathermen for this citizen science project has a huge impact. Everyone is encouraged to participate--families, schools, scientists.[^2] The data collected by individuals across the nation go into individual, daily precipitation report. From there, the organization compiles them into a Public Information Statement that can be used by the public and media. This data helps everyone from hydrologists to forecaster.
+After a deadly flood in Colorado,[^2] CoCoRaHS was created to encourage communities to engage in citizen meteorological projects by recording weather observations. These citizen observations. This data the CoCoRaHS network supplies empower everyone from local weathermen and city utilities to large organizations like the National Weather Service and the USDA for a variety of research and informational uses.
 
-To join the organization, there are a few steps to be undertaken. After filling out a general form and purchasing a standard four inch rain gauge, the last step is a short series of free training videos to help teach proper use of rain gauges and scientific principles. Depending on which kind or precipitation found in your area, there are different presentations. One is entitled "In Depth Snow Measurement" and another is "Measuring Reference Evapotranspiration." After learning how to measure precipitation accurately and consistently, the gauge and participant are ready to go. Measuring rainfall data helps support your local weather station with scientific data to make more accurate forecasts.
+Everyone is encouraged to participate in the program--families, schools, scientists.[^3] The data collected by individuals across the nation go into individual, daily precipitation report. From there, the organization compiles them into a Public Information Statement that can be used by the public and media where other organizations interested in the data can use it.
 
-If you're interested in learning more about citizen weather science, visit your local weather station for opportunities to learn more about meteorology such as:[^3]
+In the map above, you can see that with all of the individual precipitation records together, we are able to create a full picture of how rainfall affects the community as a whole. [expand?]  [this is bad]
+
+To join the organization, there are a few steps to be undertaken. After filling out a general form, purchasing a standard four inch rain gauge, and some training in how to read your new gauge, a person is able to help contribute rainfall information for their community. After learning how to measure precipitation accurately and consistently, the gauge and participant are ready to go. Measuring rainfall data helps support your local weather station with scientific data to make more accurate forecasts.
+
+If you're interested in learning more about citizen weather science, visit your local weather station for opportunities to learn more about meteorology such as:[^4]
   * Jet Stream, an online introductory textbook to meteorology
   * SKYWARN, training to become a storm spotter for severe weathermen
   * Emergency Preparedness Seminars, to become informed about local emergency preparedness situations
@@ -93,9 +96,11 @@ If you're interested in learning more about citizen weather science, visit your 
 
 [^1]: https://www.cnn.com/2017/08/27/us/harvey-impact-by-the-numbers-trnd/index.html
 
-[^2]: http://www.upr.org/post/shower-national-weather-service-data-being-backyard-weather-observer.
+[^2]: https://www.cocorahs.org/Content.aspx?page=aboutus
 
-[^3]: https://www.forbes.com/sites/dennismersereau/2018/07/31/8-fantastic-resources-to-learn-more-about-the-weather/#7f7c40f07dfa
+[^3]: http://www.upr.org/post/shower-national-weather-service-data-being-backyard-weather-observer.
+
+[^4]: https://www.forbes.com/sites/dennismersereau/2018/07/31/8-fantastic-resources-to-learn-more-about-the-weather/#7f7c40f07dfa
 
 ---
 <body>
