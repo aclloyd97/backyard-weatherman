@@ -16,7 +16,7 @@ custom_js: leaflet
    {% endif %}
 ---
 
-#What can average people do to help meteorologists?
+# What can average people do to help meteorologists?
 
 ### Flight through a Hurricane
 
@@ -52,11 +52,11 @@ Factors include the physical size of the storm and the amount of precipitation d
 
 My experiences with Ike, however, would not compare to Harvey in the slightest.
 
-###Raining Continues
+### Raining Continues
 
 The precipitation for Harvey was unlike any other hurricane, dropping 27 trillion gallons over the first 6 days. Hurricane Katrina, by comparison, only dropped 6 trillion gallons of water.[^1] When I woke up the next morning, my street, which rarely floods, was filled over the brim. In fact, it was creeping into my lawn. The best I could do was take pictures from nearly the same spot to demonstrate how high the water was.
 
-[![Water Rising in the Street](https://raw.githubusercontent.com/aclloyd97/LeafletHeatMap/master/images/IMG_20170829_083538.jpg)
+[![Water Rising in the Street](https://raw.githubusercontent.com/aclloyd97/LeafletHeatMap/master/images/IMG_20170829_083538.jpg)]
 
 Scrolling through social media feeds, I saw my friends and family sharing similar photos of their streets and lawns. At the time, that's the best we had to measure how much rain had fallen. Needless to say, I wasn't leaving for college with how much rainfall had occurred. There was too much flooding.
 
@@ -80,7 +80,7 @@ Everyone is encouraged to participate in the program--families, schools, scienti
 
 The map above illustrates the rainfall data collected for the entire duration of Hurricane Harvey. If you zoomed in onto an individual point, it's not very interesting. You will just see a blue dot. However, when zooming out and seeing the network of data working together to create a comprehensive picture, you can see that with all of the individual precipitation records work together to communicate how rainfall affects the community as a whole. With an encompassing dataset, meteorologists and weathermen can more accurately provide weather information to prepare people for all kinds of weather.
 
-###Joining CoCoRaHS
+### Joining CoCoRaHS
 To join the organization, there are a few steps to be undertaken. After filling out a general form, purchasing a standard four inch rain gauge, and some training in how to read your new gauge, a person is able to help contribute rainfall information for their community. After learning how to measure precipitation accurately and consistently, the gauge and participant are ready to go. Measuring rainfall data helps support your local weather station with scientific data to make more accurate forecasts.
 
 If you're interested in learning more about citizen weather science, visit your local weather station for opportunities to learn more about meteorology such as:[^4]
