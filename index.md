@@ -80,3 +80,171 @@ If you're interested in learning more about citizen weather science, visit your 
 [^2]: http://www.upr.org/post/shower-national-weather-service-data-being-backyard-weather-observer.
 
 [^3]: https://www.forbes.com/sites/dennismersereau/2018/07/31/8-fantastic-resources-to-learn-more-about-the-weather/#7f7c40f07dfa
+
+<body>
+
+<div id="map1" class="map"></div>
+
+<br>
+
+<div id="map2" class="map"></div> <!--map 2 locations-->
+
+<br>
+
+<!---SCRIPTS-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.3.4/leaflet.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/mourner/simpleheat/simpleheat.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/Harvinator/Leaflet.heat@patch-1/src/HeatLayer.min.js"></script>
+
+    <!--DATASETS-->
+        <!--August 26-->
+            <script src="data/usa/du_0826.js"></script>         <!--var usaPoints_0826-->
+            <script src="data/texas/dt_0826.js"></script>       <!--var texasPoints_0826-->
+            <script src="data/landfall/dl_0826.js"></script>    <!--var landfallPoints_0826-->
+        <!--Total Rainfall-->
+            <script src="data/usa/du_total.js"></script>        <!--var usaPoints_total-->
+            <script src="data/texas/dt_total.js"></script>      <!--var texasPoints_total-->
+            <script src="data/landfall/dl_total.js"></script>   <!--var landfallPoints_total-->
+        <!--Other-->
+            <script src="data/flight_path.js"></script>         <!--var flight_boston-->
+
+<!--MAPS-->
+<script> //Map 1 = August 26 and Flight
+    var map1 = L.map('map1', {center: [37, -97], zoom: 4}); // [Lat, Lng], Magn
+        // Texas Center: [31.5, -100], 6
+        // USA   Center: [37, -97], 4
+
+    var controls = L.control.layers().addTo(map1);
+
+    var tiles1 = L.tileLayer('http://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}.png', {
+        attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors, &copy; <a href= "https://cato.com/attributions">CARTO</a>'
+    }).addTo(map1);
+        //https://tile.thunderforest.com/landscape/{z}/{x}/{y}.png?apikey=<insert-your-apikey-here>
+
+    var hurricaneIcon = L.icon({
+          iconUrl: 'hurricane-icon.png',
+
+          iconSize:     [50, 48], // size of the icon
+          //shadowSize:   [50, 64], // size of the shadow
+          iconAnchor:   [25, 25], // point of the icon which will correspond to marker's location
+          shadowAnchor: [4, 62],  // the same for the shadow
+          popupAnchor:  [0, 0] // point from which the popup should open relative to the iconAnchor
+          });
+
+    var airplaneIcon = L.icon({
+          iconUrl: 'airplane.png',
+
+          iconSize:     [50, 50], // size of the icon
+          //shadowSize:   [50, 64], // size of the shadow
+          iconAnchor:   [50, 50], // point of the icon which will correspond to marker's location
+          shadowAnchor: [4, 62],  // the same for the shadow
+          popupAnchor:  [0, 0] // point from which the popup should open relative to the iconAnchor
+          });
+
+
+    // Copy and paste this line, changing the variable name (totalHeatLayer) and the input to the heatLayer
+    // function (addressPoints) to add additional heat layers (keep track of the variable name, you'll need
+    // it to add map controls)
+
+    var usaHeat = L.heatLayer(usaPoints_0826, {
+          max: 1.0,
+          gradient: {
+              0.1: "white",
+              0.2: "lightsteelblue",
+              0.3: "lightblue",
+              0.4: "powderblue",
+              0.5: "skyblue",
+              0.6: "cornflowerblue",
+              0.7: "dodgerblue",
+              0.8: "blue" ,
+              0.9: "mediumblue",
+              1.0: "navy"}
+              //https://www.w3schools.com/colors/colors_groups.asp
+          }).addTo(map1);
+
+    var landfall = L.polyline(landfallPoints_0826, {color: "red"}).addTo(map1); //Tool Tip
+      //marker.bindTooltip("my tooltip text").openTooltip();
+      L.marker ([29.1, -97.5], {icon:hurricaneIcon}).bindPopup("Hurricane Harvey<br>August 26</br>").addTo(map1)
+
+    var flight_boston = L.polyline(flightPoints, {color: "green"}).bindPopup("Flight 2728's path<br>from Boston to Houston</br>").addTo(map1);
+      //flightPoints.forEach(function(point){new L.marker([point[0],point[1]]).bindPopup(point[3]).addTo(map1);})
+      L.marker ([36.16, -86.78], {icon:airplaneIcon}).bindPopup("Flight Path<br>August 26</br>").addTo(map1)   //"Nashville, Tennessee"
+
+    controls.addOverlay(usaHeat,"Heat Layer");
+    controls.addOverlay(landfall, "Hurricane Harvey path");
+    controls.addOverlay(flight_boston, "Fligt 2728");
+
+</script>
+<script> //Map 2 = Hurricane Totals and Sources as a Layer
+  var map2 = L.map('map2', { center: [31.5, -100], zoom: 6}); // [Lat, Lng], Magn
+      // Texas Center: [31.5, -100], 6
+      // USA   Center: [37, -97], 4
+
+  var controls = L.control.layers().addTo(map2);
+
+  var tiles = L.tileLayer('http://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}.png', {
+      attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors, &copy; <a href= "https://cato.com/attributions">CARTO</a>'
+  }).addTo(map2);
+
+  var hurricaneIcon = L.icon({
+        iconUrl: 'hurricane-icon.png',
+
+        iconSize:     [50, 48], // size of the icon
+        //shadowSize:   [50, 64], // size of the shadow
+        iconAnchor:   [25, 25], // point of the icon which will correspond to marker's location
+        shadowAnchor: [4, 62],  // the same for the shadow
+        popupAnchor:  [0, 0] // point from which the popup should open relative to the iconAnchor
+        });
+
+  // Copy and paste this line, changing the variable name (totalHeatLayer) and the input to the heatLayer
+  // function (addressPoints) to add additional heat layers (keep track of the variable name, you'll need
+  // it to add map controls)
+
+/*  var dataSources = L.marker({
+    addressPoints2.forEach(function(point){
+        new L.marker([point[0],point[1]]).bindPopup(Source).addTo(map1);
+        })
+  addressPoints2.forEach(function(point){
+            //new L.marker([point[0],point[1]]).bindPopup(point[0]+", "+point[1]).addTo(map1);
+*/
+  var texasHeat = L.heatLayer(usaPoints_total, {
+        max: 1.0,
+        gradient: {
+            0.1: "white",
+            0.2: "lightsteelblue",
+            0.3: "lightblue",
+            0.4: "powderblue",
+            0.5: "skyblue",
+            0.6: "cornflowerblue",
+            0.7: "dodgerblue",
+            0.8: "blue" ,
+            0.9: "mediumblue",
+            1.0: "navy"}
+            //https://www.w3schools.com/colors/colors_groups.asp
+        }).addTo(map2);
+
+  var landfall = L.polyline(landfallPoints_total, {color: "red"}).bindTooltip("Hurricane Harvey's<br>storm path</br>").addTo(map2); //Tool Tip
+
+  controls.addOverlay(heat,"Heat Layer");
+  controls.addOverlay(landfall, "Hurricane Harvey path");
+
+  //addressPoints2.forEach(function(point){
+            //new L.marker([point[0],point[1]]).bindPopup(point[0]+", "+point[1]).addTo(map1);
+          //})
+</script>
+<!--<script> //Play my Video
+var ppbutton = document.getElementById("vidbutton");
+ppbutton.addEventListener("click", playPause);
+
+myVideo = document.getElementById("flight_vid");
+function playPause() {
+    if (myVideo.paused) {
+        myVideo.play();
+        ppbutton.innerHTML = "Pause";
+        }
+    else  {
+        myVideo.pause();
+        ppbutton.innerHTML = "Play";
+
+</script>-->
+</body>
