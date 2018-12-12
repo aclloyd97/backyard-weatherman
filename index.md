@@ -15,19 +15,25 @@ custom_js: leaflet
        {% endfor %}
    {% endif %}
 ---
-What the hell will this paper be about.
+What the hell will this paper be about: a thesis.
 
 ### Flight through a Hurricane
 
-My flight, for the most part, had been smooth. Looking out the window, the clouds hung low. A crack of lightning flashed across the sky--but no thunder followed. Typically I get nervous flying through a storm but today I hadn’t. The pilot kept the airplane relatively smooth and calm, considering the impending Hurricane.
+Flight 2720 is a straight shot to Houston, about four hours and fifteen minutes. On a normal summer evening, the clouds would hang low and the sunset would beam colorful rays through the window as you landed quietly at Hobby International Airport.
 
-Flying from Boston, MA on I was concerned that they wouldn’t let us leave for Houston, TX.[^1] The Hurricane began formation in the Gulf of Mexico a few days prior, and as it loomed closer it became projected for Houston. My flight was one of the last to land in Houston. Wanting to evacuate the personnel as soon as possible, the airport didn’t allow luggage off of the plane. As I walked through the airport, I decided that Sunday morning, maybe Sunday afternoon, I would leave to return to College Station to be there for the first day of university classes.  
+With this flight, a crack of lightning flashed across the sky, but no thunder followed. My flight had been calm, up to this final push. On occasion, I get nervous flying through a storm, but today’s pilots kept the plane sailing smoothly through the sky despite the ruckus immediately around us. This ruckus was just beginning to hit Houston--Hurricane Harvey.
+
+Originally, I was slightly concerned about flying from Boston, Massachusetts, to Houston, Texas because of the impending weather. Harvey began formation in the Gulf of Mexico just a few days prior and loomed closer as it’s path shifted, now projecting onto Houston. Now, it was here.
+
+Anxious for the safety of the personnel and passengers, the airport sought to evacuate everyone as quickly as possible, not even taking my luggage off of the plane. As I walked through the airport, I decided that Sunday morning, maybe Sunday afternoon, I would leave to return to College Station to be there for the first day of university classes.
 
 [![Flight Home](http://img.youtube.com/vi/XcU3w8aY-xk/0.jpg)](https://youtu.be/XcU3w8aY-xk)
 
-My dad picked me up in the 2014 Honda Civic, a small car, and we drove into the storm. Rain pelted the car at the same rate that we saw on the plane. On the ground, however, the water was much scarier. Why Dad didn’t bring the truck, I’ll never know. Lighting flashed, thunder cracked, rain poured. Dad drove us slowly through, trying to be careful of the rising water. There were times that I thought we would be the idiots stuck on the highway on the news. We made it home safely, thank goodness. I went to sleep fully expecting to leave in the morning for college.
+Exiting the building, my dad brought the small Honda Civic instead of the tall Ford “Built Tough” Truck. Rain pelted the car as we drove off into the storm. We only technically live thirty minutes from the airport, but we had to drive very carefully with the rising waters.
 
-> You see, this wasn’t my first hurricane.
+Lighting flashed, thunder cracked, rain poured. Why Dad didn’t bring the truck, I’ll never know. We were the only ones on the road. I could almost imagine the car stuck at the top of Beltway 8,  water encircling us, with the news helicopter flying above us, pointing their spotlight, broadcasting that there were another set of idiots trying to drive around town during a hurricane.
+
+Despite my worries, we made it home safely. Once inside, I decided to stick to my original plan to head to College Station, unless something drastic changed. I had experienced hurricanes and flooding before. In my neighborhood, we were built with good drainage systems and retention ponds. I felt confident I could wake up in the morning and the roads clear to drive, as I had experienced with previous severe weather.
 
 [![Car Ride Home](https://img.youtube.com/vi/sEUkP2Z39hE/0.jpg)](https://www.youtube.com/watch?v=sEUkP2Z39hE)
 
@@ -82,6 +88,7 @@ If you're interested in learning more about citizen weather science, visit your 
 
 [^3]: https://www.forbes.com/sites/dennismersereau/2018/07/31/8-fantastic-resources-to-learn-more-about-the-weather/#7f7c40f07dfa
 
+---
 <body>
 
 <div id="map1" class="map"></div>
@@ -249,3 +256,4 @@ function playPause() {
 
 </script>-->
 </body>
+---
